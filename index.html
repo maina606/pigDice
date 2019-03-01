@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pig Dice</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script   src="js/jquery-3.3.1.js"></script>
+    <!-- <script src="js/scripts.js"></script> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>PIG DICE</h1>
+      </div>
+      <div class="row">
+ <!-- Start of 1st player's column -->
+        <div class="col-md-4">
+          <div class="well">
+            <h2>PLAYER 1</h2>
+            <div class="panel panel-info"> <!--Opens chart score -->
+              <div class="panel-heading">
+                <h2 class="panel-title">Chart score</h2>
+              </div>
+              <div class="panel-body">
+                <h3>scores print here</h3>
+              </div>
+              <div class="panel-footer">
+                <p>TOTAL SCORE</p>
+              </div>
+            </div> <!--Closes chart score -->
+
+          </div> <!-- Closes well -->
+        </div> <!-- Closes 1st player's column -->
+
+<!--Opens Dice column -->
+      <div class="col-md-4">
+          <div class="well">
+            <h2>DICE ROLLER</h2>
+            <div>
+              <!-- <img src="img/animated-dice-image-0104.gif" alt="an animated dice"> -->
+              <div id ="diceMaker">
+                <!-- dice box-like comes here - in the css -->
+              </div>
+              <button id="button">DICE</button>
+            </div>
+          </div>
+        </div> <!--Closes Dice column -->
+
+<!-- Start of 2nd player's column -->
+        <div class="col-md-4">
+          <div class="well">
+            <h2>PLAYER 2</h2>
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h2 class="panel-title">Chart score</h2>
+              </div>
+              <div class="panel-body">
+                <h3>scores print here</h3>
+              </div>
+              <div class="panel-footer">
+                <p>TOTAL SCORE</p>
+              </div>
+             </div> <!--Closes 2nd chart score -->
+          </div> <!-- closes well -->
+        </div> <!-- closes 2nd player's column -->
+      </div> <!-- closes row -->
+    </div> <!-- closes container -->
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
