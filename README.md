@@ -20,7 +20,7 @@ This is version 1.0.01 and any up-to-date device should be able to do the work.
 
 | Behaviour our program should handle           | Input                             | Output                        |
 | ----------------------------------------------|---------------------------------  |-------------------------------|
-| If player rolls a 1                           | dice = 1                          | Points resets to 0            |
+| If player rolls a 1                           |  1                                | Points resets to 0            |
 | Player clicks on hold                         | hold                              | Turn for the other player     |
 | Player rolls between 2 and 6                  | 2 or3 or 4 or 5 or 6              | earns 11 points               |
 | User rolls 2, 3 or 6                          | Rolls 2, 3 & 6 consecutively      | 0 points plus Grading         |
