@@ -18,7 +18,7 @@ This is version 1.0.01 and any up-to-date device should be able to do the work.
 
 ## BDD (Behaviour Driven Development)
 
-| Behaviour our program should handle           | Input                             | Output                        |
+| Behaviour our program should handle           |Input                              | Output                        |
 | ----------------------------------------------|---------------------------------  |-------------------------------|
 | If player rolls a 1                           |  1                                | Points resets to 0            |
 | Player clicks on hold                         | hold                              | Turn for the other player     |
@@ -40,7 +40,9 @@ For support call me on:
 
 ## MIT © Maina Caroline 022019
 
-        pigDice/LICENSE
+      MIT License
+
+Copyright (c) 2019 maina606
       
 
 
