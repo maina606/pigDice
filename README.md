@@ -40,5 +40,8 @@ For support call me on:
 
 ## MIT © Maina Caroline 022019
 
+        pigDice/LICENSE
+      
+
 
 
