@@ -12,14 +12,33 @@
   border-radius: 10px;
   font-size:80px;
 }
-button {
+
+#diceRollPlayer1 {
   background-color: #990000;
   border-radius: 6px;
   border: none;
   color: rgb(255, 255, 255);
   padding: 10px;
-  width: 250px;
+  width: 150px;
   cursor: pointer;
-  margin-left: 50px;
-  margin-right: 50px;
+}
+
+#diceRollPlayer2 {
+  background-color: #990000;
+  border-radius: 6px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+}
+
+#hold {
+  background-color: #4d0f00;
+  border-radius: 6px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
 }
