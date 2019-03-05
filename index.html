@@ -23,14 +23,14 @@
               </div>
               <div class="panel-body">
                 <div>
-                  <h3 id="p1Rolled">Rolled</h3>
+                  <h4 id="p1Rolled"></h4>
                 </div>
                 <div>
-                  <h3 id="p1Scored">scores print here</h3>
+                  <h6 id ="p1Scored"> </h6>
                 </div>
               </div>
               <div class="panel-footer">
-                <p id ="p1Total">TOTAL SCORE</p>
+                <p class ="total">TOTAL SCORE: <span id ="p1Total"></span></p>
               </div>
             </div> <!--Closes chart score -->
           </div> <!-- Closes well -->
@@ -46,10 +46,10 @@
                 <!-- dice (box) comes here - in the css -->0
               </div>
 
-                <button type ="button" id="diceRollPlayer1">ROLL Player1</button>
-                <button type ="button" id="diceRollPlayer2">ROLL Player2</button>
+                <button type ="button" id="diceRollPlayer1" onclick="roll()">ROLL Player1</button>
+                <button type ="button" id="diceRollPlayer2" onclick="roll2()">ROLL Player2</button>
 
-                <button id="hold">HOLD</button>
+                <button type="button" id="hold">HOLD</button>
 
             </div>
           </div>
@@ -65,14 +65,14 @@
               </div>
               <div class="panel-body">
                 <div>
-                  <h3 id="p2Rolled">Rolled</h3>
+                  <h4 id="p2Rolled"></h4>
                 </div>
                 <div>
-                  <h3 id="p2Scored">scores print here</h3>
+                  <h6 id="p2Scored"></h6>
                 </div>
-              <div class="panel-footer">
-                <p id ="p2Total">TOTAL SCORE</p>
-              </div>
+                <div class="panel-footer">
+                  <p class ="total">TOTAL SCORE: <span id ="p2Total"></span></p>
+                </div>
              </div> <!--Closes 2nd chart score -->
           </div> <!-- closes well -->
         </div> <!-- closes 2nd player's column -->
